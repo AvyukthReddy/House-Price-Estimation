@@ -37,7 +37,7 @@ def predict():
     if int(total_sqft) < 450:
         prediction = "Minimum Area: 450 sft"
     else:
-        prediction += str(get_estimated_price(total_sqft, loc, bhk, bath))+" Lakh"
+        prediction += str(get_estimated_price(total_sqft, loc, bhk, bath)) + " Lakh"
     return prediction
 
 if __name__ == "__main__":
