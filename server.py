@@ -34,11 +34,8 @@ def predict():
     bath = int(request.form.get('bath'))
     loc = request.form.get('loc')
     prediction = "₹ "
-    '''if int(total_sqft) == 0:
-        prediction += str(0) + "Lakh"'''
     if int(total_sqft) < 450:
         prediction = "Minimum Area: 450 sft"
-        #prediction += str(round(get_estimated_price(total_sqft, loc, bhk, bath)/10,2))
     else:
         prediction += str(get_estimated_price(total_sqft, loc, bhk, bath))+" Lakh"
     return prediction
