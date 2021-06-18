@@ -319,6 +319,8 @@ legend {
 
 	.submit {
 		height: 30px;
+		position: relative;
+		right: 6px;
 	}
 
 	.result {
@@ -339,7 +341,7 @@ legend {
 		width: 150px;
 		position: absolute;
 		bottom: 506px;
-		right: 115px;
+		right: 110px;
 	}
 }
 
