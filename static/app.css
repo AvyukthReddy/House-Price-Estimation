@@ -314,7 +314,7 @@ legend {
 		padding: 5px;
 		height: 30px;
 		position: relative;
-		right: 1px;
+		right: 7px;
 	}
 
 	.submit {
@@ -339,7 +339,7 @@ legend {
 		width: 150px;
 		position: absolute;
 		bottom: 506px;
-		right: 110px;
+		right: 115px;
 	}
 }
 
