@@ -5,7 +5,6 @@ body {
 .hidden {
 	color: transparent;
 	position: absolute;
-	bottom: 1000px;
 }
 
 .switch-field {
