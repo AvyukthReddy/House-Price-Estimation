@@ -294,7 +294,9 @@ fieldset:hover {
 	box-shadow: 0 0 11px rgba(33, 33, 33, 0.653);
 }
 
-input:focus {
+input:focus,
+select:focus,
+label:focus {
 	box-shadow: 0 0 11px rgba(33, 33, 33, 0.238);
 }
 
