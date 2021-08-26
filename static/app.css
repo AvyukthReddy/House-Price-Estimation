@@ -294,6 +294,10 @@ fieldset:hover {
 	box-shadow: 0 0 11px rgba(33, 33, 33, 0.653);
 }
 
+input:focus {
+	box-shadow: 0 0 11px rgba(33, 33, 33, 0.238);
+}
+
 @media screen and (max-width: 475px) {
 	.form {
 		max-width: 80%;
