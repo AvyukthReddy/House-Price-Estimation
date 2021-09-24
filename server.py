@@ -54,6 +54,8 @@ def predict():
         return "Enter Area"
     if int(total_sqft) < 450:
         return "Minimum Area: 450 sft"
+    if int(total_sqft) > 8000:
+        return "Maximum Area: 8000 sft"
     prediction = "₹ "
     prediction += str(get_estimated_price(total_sqft,
                                           loc, bhk, bath)) + " Lakh"
