@@ -1,5 +1,5 @@
-# source venv/Scripts/activate
-# cd api then run using python app.py
+# coding=utf-8
+
 from flask import Flask, request, render_template
 import pickle
 import pandas as pd
