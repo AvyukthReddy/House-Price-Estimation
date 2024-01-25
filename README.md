@@ -10,7 +10,7 @@ Follow these steps to set up and run the project:
 1. Clone the repository: `git clone "https://github.com/AvyukthReddy/House-Price-Prediction"`
 2. Install virtualenv (skip if installed): `pip install virtualenv`
 3. Create a virtual environment: `python -m venv .venv`
-4. Activate the virtual environment: `source .venv/Scripts/activate`
+4. Activate the virtual environment: `.venv\Scripts\activate`
 5. Install the required packages: `pip install -r requirements.txt`
 6. Run the application: `python app.py`
 
